@@ -11563,8 +11563,70 @@ fieldset:disabled .btn {
   }
 }
 
+*,
+::before,
+::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+*,
+::before,
+::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #198754;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.link--dark {
+  color: #000;
+}
+
+.fs-7 {
+  font-size: 14px;
+}
+
+.navbar {
+  min-width: 296px;
+  position: fixed;
+}
+
+.navbar__logo {
+  background-image: url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week5/logo-ANSWER.svg);
+  background-repeat: no-repeat;
+  display: block;
+  width: 151px;
+  height: 40px;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.user__avatar {
+  width: 40px;
+  height: 40px;
+}
+
 .index__h1 {
-  color: #00cc99;
+  color: black;
   font-size: 20px;
   font-weight: 400;
 }
