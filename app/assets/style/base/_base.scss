@@ -1,0 +1,26 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  &:hover {
+    color: #198754;
+    transition: 0.5s;
+  }
+}
+
+//將連結字體顏色變成 黑色
+.link--dark {
+  color: #000;
+}
+
+.fs-7 {
+  font-size: 14px;
+}

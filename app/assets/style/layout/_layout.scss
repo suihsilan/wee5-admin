@@ -1,0 +1,20 @@
+.navbar {
+  min-width: 296px;
+  position: fixed;
+}
+
+.navbar__logo {
+  background-image: url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week5/logo-ANSWER.svg);
+  background-repeat: no-repeat;
+  display: block;
+  width: 151px;
+  height: 40px;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.user__avatar {
+  width: 40px;
+  height: 40px;
+}
